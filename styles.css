@@ -9,13 +9,15 @@
     --color3:#FFFBE6;
     --color2:#00712D;
 }
-html, body{
-    height: 100vh;
+ html,body{
+    height:100vh;
+   
+}
+html{
+    background-color: var(--color2);
 }
 .main-box{
-   
-    background-image: linear-gradient(to bottom, var(--color1),var(--color1),var(--color2), var(--color2));
-    padding:20px 10px;
+   padding:20px 10px;
 }
 .button1{
     cursor: pointer;
@@ -106,7 +108,7 @@ font-size: small;
         height: 100px;
        }
 .main-box{
-    height: 95vh;
+    height: auto;
 }
     }
     /*for laptop screen*/
